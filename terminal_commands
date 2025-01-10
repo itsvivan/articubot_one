@@ -63,10 +63,6 @@ to see the velocities
 ros2 topic echo /cmd_vel
 
 
-
-how to connecct rael lidar
-connect the pi
-sudo apt install ros-foxy-rplidar-ros   change this b/c this is for ros -foxy
 ros2 run rplidar_ros rplidar_composition --ros-args -p serial_port:=/dev/ttUSB0 -p frame_id:=laser_frame -p angle_compensate:=true -p scan_mode:=Standardc
 
 
